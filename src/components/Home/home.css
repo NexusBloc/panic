@@ -6,7 +6,7 @@
 body {
     background-color: #FFD21E;
 }
-.container {
+.containerFirst {
     background-color: #FFD21E;
 }
 .navbar-logo {
@@ -25,7 +25,10 @@ body {
   }
   .mainPage {
     position: relative;
-    top: 190px;
+    top: 350px;
+    /* background-position: calc(top); */
+    /* padding-bottom: 150px; */
+    background-image: url('./panic_bg.png');
   }
 
 /* Medium devices (tablets, 768px and up) */

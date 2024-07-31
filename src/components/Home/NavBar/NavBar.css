@@ -35,6 +35,12 @@
     white-space: nowrap;
     
   }
+  .navbar-button:hover {
+    background-color: black;
+    color: #ce9c11;
+    border: 1px solid black;
+  
+  }
   
   .navbar-button:hover {
     border: 1px solid white;

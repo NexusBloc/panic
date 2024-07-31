@@ -1,0 +1,146 @@
+.container {
+    /* background-image: url('panic_bg.png'); */
+  }
+.containerF {
+    /* background-image: url('panic_bg.png'); */
+    height: 10vh;
+    position: relative;
+    top: -220px;
+  }
+.row-container {
+    position: relative;
+    width: 87%;
+    left: 6.1%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .row-container h3 {
+    margin-left: 15px;
+  }
+  .see-more {
+    position: absolute;
+    top: 65px;
+    right: 20px;
+  }
+  
+  .see-more a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 25px 15px 25px;
+    border-radius: 50%;
+    background-color: #ce9c11;
+  }
+  
+  .items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px; /* Ensures 'See More' link doesn't overlap items */
+  }
+  
+  .item {
+    flex: 1;
+    margin: 0 10px; /* Adjust spacing between items */
+    text-align: center;
+  }
+  
+  .item img {
+    width: 50%;
+    height: auto;
+    max-width: 200px; /* Adjust the size as needed */
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .item h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .btnF {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: -4.5%;
+    width: 83%;
+    top: 70px;
+    padding-bottom: 40px;
+  }
+  .btnFo {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 12.9%;
+    width: 83%;
+    top: 70px;
+    padding-bottom: 40px;
+}
+.panicportalF {
+  text-decoration: none;
+color: black;
+font-weight: bold;
+  border: 1px solid transparent;
+  transition: border 0.3s;
+  padding: 15px 55px;
+  /* height: 14px; */
+  background-color: #ce9c11;
+  border-radius: 80%;
+  /* box-shadow: h-offset v-offset blur spread #f7be22; */
+  /* box-shadow: '12px 12px 15px rgba(0, 0, 0, 0.3)'; */
+  font-weight: bold;
+  white-space: nowrap;
+  position: relative;
+  left: 7%;
+  /* flex: 1; */
+}
+.copywrite {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  /* padding-top: 140px; */
+  height: 40px;
+  font-weight: bold;
+  top: 70px;
+  /* background-image: url('./panic_bg.png'); */
+}
+.X:hover {
+  color: white;
+  background-color: black;
+}
+.Con:hover {
+  color:  #ce9c11;
+  background-color: black;
+}
+.opensea:hover {
+  color: white;
+  background-color: #15B2E5;
+}
+.discord:hover {
+  color: black;
+  background-color: #7289DA;
+}
+.ch1 a:hover {
+  color: #ce9c11;
+  background-color: #FF501E;
+}
+.ch2 a:hover {
+  color: #FF501E;
+  background-color: #0FA50F;
+  font-weight: bold;
+}
+.ch3 a:hover {
+  color: #0D9121;
+  background-color: #1E3CFF;
+}
+.ch4 a:hover {
+  color: #1E3CFF;
+  background-color: #FFCD9B;
+}
+.ch5 a:hover {
+  color: #FFCD9B;
+  background-color: #1E0064;
+}
+.ch6 a:hover {
+  color: #1E0064;
+  background-color: #E1B400;
+}
