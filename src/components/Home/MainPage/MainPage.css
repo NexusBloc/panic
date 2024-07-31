@@ -1,0 +1,46 @@
+.homebtn {
+    font-size: 100px;
+    position: relative;
+    left: 10%;
+    width: 30px;
+    top: 90px;
+    font-family: 'Satisfy', cursive;
+  font-style: italic;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+    
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.panicportal {
+    text-decoration: none;
+  color: black;
+  font-weight: bold;
+    border: 1px solid transparent;
+    transition: border 0.3s;
+    padding: 15px 55px;
+    /* height: 14px; */
+    background-color: #ce9c11;
+    border-radius: 80%;
+    /* box-shadow: h-offset v-offset blur spread #f7be22; */
+    /* box-shadow: '12px 12px 15px rgba(0, 0, 0, 0.3)'; */
+    font-weight: bold;
+    white-space: nowrap;
+    position: relative;
+    left: 19%;
+    /* flex: 1; */
+}
+.btn2 {
+    position: relative;
+    left: 4%;
+}
+
+
+  

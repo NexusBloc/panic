@@ -1,0 +1,26 @@
+/* src/App.css */
+.container {
+  /* height: 100vh; */
+  overflow: hidden;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 100px); /* Creates columns of 100px */
+    grid-template-rows: repeat(auto-fill, 100px); /* Creates rows of 100px */
+    gap: 6px; /* Gap between the squares */
+    height: 100vh;
+    width: 109%;
+    position: relative;
+    top: 50px;
+    background-color: transparent; /* Transparent background for the container */
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background: transparent; /* Transparent background for the boxes */
+    border: 1px solid rgba(125, 119, 119, 0.204); /* Border color with transparency */
+    box-shadow: 0 0 0 1px rgba(218, 214, 214, 0.12);
+  }
+  

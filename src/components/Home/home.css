@@ -1,0 +1,128 @@
+/* Base styles (mobile first) */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/* Small devices (phones, 0px and up) */
+body {
+    background-color: #FFD21E;
+}
+.container {
+    background-color: #FFD21E;
+}
+.navbar-logo {
+    font-size: 104px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-top: 120px;
+    /* font-family: 'Great Vibes', cursive; */
+    font-family: 'Satisfy', cursive;
+  font-style: italic;
+  }
+  .mainPage {
+    position: relative;
+    top: 190px;
+  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .wrapper {
+        width: 750px;
+        margin: 0 auto;
+    }
+    .example {
+        color: rgb(179, 255, 0);
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body {
+        font-size: 18px;
+    }
+
+    .wrapper {
+        width: 970px;
+        margin: 0 auto;
+    }
+    .example {
+        color: red;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body {
+        font-size: 20px;
+    }
+
+    .wrapper {
+        /* width: 1170px; */
+        margin: 0 auto;
+    }
+    .example {
+        color: green;
+    }
+}
+
+/* Portrait and landscape phones (320px and up) */
+@media (min-width: 320px) {
+    .example {
+        font-size: 1rem;
+        color: purple;
+    }
+}
+@media (min-width: 376px) and (max-width: 479px) {
+    .example {
+        font-size: 1rem;
+        color: yellow;
+    }
+}
+
+/* Landscape phones (480px and up) */
+@media (min-width: 480px) {
+    .example {
+        font-size: 1.1rem;
+        color: pink;
+    }
+}
+
+/* Tablets (768px and up) */
+@media (min-width: 768px) {
+    .example {
+        font-size: 1.2rem;
+        color: aqua;
+    }
+}
+
+/* Desktops and laptops (1024px and up) */
+@media (min-width: 1024px) {
+    .example {
+        font-size: 1.3rem;
+        color: brown;
+    }
+}
+
+/* Large desktops (1280px and up) */
+@media (min-width: 1280px) {
+    .example {
+        font-size: 1.4rem;
+        color: chocolate;
+    }
+}
+
+/* Extra large desktops (1600px and up) */
+@media (min-width: 1600px) {
+    .example {
+        font-size: 1.5rem;
+        color: cadetblue;
+    }
+}
