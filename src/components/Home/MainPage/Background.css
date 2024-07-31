@@ -2,6 +2,7 @@
 .container {
   /* height: 100vh; */
   overflow: hidden;
+  position: relative;
 }
 
 .grid-container {
@@ -9,7 +10,7 @@
     grid-template-columns: repeat(auto-fill, 100px); /* Creates columns of 100px */
     grid-template-rows: repeat(auto-fill, 100px); /* Creates rows of 100px */
     gap: 6px; /* Gap between the squares */
-    height: 100vh;
+    /* height: 100vh; */
     width: 109%;
     position: relative;
     top: 50px;
