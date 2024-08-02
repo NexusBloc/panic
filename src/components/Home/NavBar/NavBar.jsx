@@ -13,10 +13,10 @@ const Navbar = () => {
         {/* <a href="#" className="navbar-logo">Logo</a> */}
       <div className="navbar-container">
         <div className={`navbar-buttons ${menuOpen ? 'open' : ''}`}>
-          <a href="#" className="navbar-button">Marketplace</a>
-          <a href="#" className="navbar-button">Collection</a>
-          <a href="#" className="navbar-button">Mint Now</a>
-          <a href="#" className="navbar-button">Connect</a>
+          <a href="#" className="navbar-buttona"></a>
+          <a href="#" className="navbar-buttonb"></a>
+          <a href="#" className="navbar-buttonc"></a>
+          <a href="#" className="navbar-buttond"></a>
         </div>
         <div className="navbar-menu-icon" onClick={toggleMenu}>
           ☰
